@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2838A039235DBB130002DF59 /* GoogleQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2838A038235DBB130002DF59 /* GoogleQuiz.swift */; };
+		2838A03B235DBB420002DF59 /* GoogleQuizTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2838A03A235DBB420002DF59 /* GoogleQuizTest.swift */; };
+		284A82BD236056B2005879E4 /* FaceBookQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284A82BC236056B2005879E4 /* FaceBookQuiz.swift */; };
+		284A82BF23605833005879E4 /* FaceBookQuizTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284A82BE23605833005879E4 /* FaceBookQuizTest.swift */; };
+		284A82C12361305B005879E4 /* YumeUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284A82C02361305B005879E4 /* YumeUtilities.swift */; };
+		286AAA2D237D5FBA008C91A7 /* SumTriplet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286AAA2C237D5FBA008C91A7 /* SumTriplet.swift */; };
+		286AAA2F237D6169008C91A7 /* SumTriplet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286AAA2E237D6169008C91A7 /* SumTriplet.swift */; };
 		28C0CE5C2359ACA1007D9185 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C0CE5B2359ACA1007D9185 /* AppDelegate.swift */; };
 		28C0CE5E2359ACA1007D9185 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C0CE5D2359ACA1007D9185 /* ViewController.swift */; };
 		28C0CE602359ACA2007D9185 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C0CE5F2359ACA2007D9185 /* Assets.xcassets */; };
 		28C0CE632359ACA2007D9185 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C0CE612359ACA2007D9185 /* Main.storyboard */; };
-		28C0CE6F2359ACA2007D9185 /* UberQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C0CE6E2359ACA2007D9185 /* UberQuizTests.swift */; };
+		28C0CE7B2359AD57007D9185 /* Uber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C0CE7A2359AD57007D9185 /* Uber.swift */; };
+		28C0CE7C2359AD99007D9185 /* UberQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C0CE6E2359ACA2007D9185 /* UberQuizTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +33,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2838A038235DBB130002DF59 /* GoogleQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleQuiz.swift; sourceTree = "<group>"; };
+		2838A03A235DBB420002DF59 /* GoogleQuizTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleQuizTest.swift; sourceTree = "<group>"; };
+		284A82BC236056B2005879E4 /* FaceBookQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceBookQuiz.swift; sourceTree = "<group>"; };
+		284A82BE23605833005879E4 /* FaceBookQuizTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceBookQuizTest.swift; sourceTree = "<group>"; };
+		284A82C02361305B005879E4 /* YumeUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YumeUtilities.swift; sourceTree = "<group>"; };
+		286AAA2C237D5FBA008C91A7 /* SumTriplet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumTriplet.swift; sourceTree = "<group>"; };
+		286AAA2E237D6169008C91A7 /* SumTriplet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumTriplet.swift; sourceTree = "<group>"; };
 		28C0CE582359ACA1007D9185 /* UberQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C0CE5B2359ACA1007D9185 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28C0CE5D2359ACA1007D9185 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +50,7 @@
 		28C0CE6A2359ACA2007D9185 /* UberQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C0CE6E2359ACA2007D9185 /* UberQuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberQuizTests.swift; sourceTree = "<group>"; };
 		28C0CE702359ACA2007D9185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28C0CE7A2359AD57007D9185 /* Uber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +98,11 @@
 				28C0CE612359ACA2007D9185 /* Main.storyboard */,
 				28C0CE642359ACA2007D9185 /* Info.plist */,
 				28C0CE652359ACA2007D9185 /* UberQuiz.entitlements */,
+				28C0CE7A2359AD57007D9185 /* Uber.swift */,
+				2838A038235DBB130002DF59 /* GoogleQuiz.swift */,
+				286AAA2E237D6169008C91A7 /* SumTriplet.swift */,
+				284A82BC236056B2005879E4 /* FaceBookQuiz.swift */,
+				284A82C02361305B005879E4 /* YumeUtilities.swift */,
 			);
 			path = UberQuiz;
 			sourceTree = "<group>";
@@ -89,8 +110,11 @@
 		28C0CE6D2359ACA2007D9185 /* UberQuizTests */ = {
 			isa = PBXGroup;
 			children = (
+				2838A03A235DBB420002DF59 /* GoogleQuizTest.swift */,
+				286AAA2C237D5FBA008C91A7 /* SumTriplet.swift */,
 				28C0CE6E2359ACA2007D9185 /* UberQuizTests.swift */,
 				28C0CE702359ACA2007D9185 /* Info.plist */,
+				284A82BE23605833005879E4 /* FaceBookQuizTest.swift */,
 			);
 			path = UberQuizTests;
 			sourceTree = "<group>";
@@ -195,8 +219,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				284A82C12361305B005879E4 /* YumeUtilities.swift in Sources */,
 				28C0CE5E2359ACA1007D9185 /* ViewController.swift in Sources */,
+				2838A039235DBB130002DF59 /* GoogleQuiz.swift in Sources */,
 				28C0CE5C2359ACA1007D9185 /* AppDelegate.swift in Sources */,
+				286AAA2F237D6169008C91A7 /* SumTriplet.swift in Sources */,
+				284A82BD236056B2005879E4 /* FaceBookQuiz.swift in Sources */,
+				28C0CE7B2359AD57007D9185 /* Uber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +233,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28C0CE6F2359ACA2007D9185 /* UberQuizTests.swift in Sources */,
+				286AAA2D237D5FBA008C91A7 /* SumTriplet.swift in Sources */,
+				284A82BF23605833005879E4 /* FaceBookQuizTest.swift in Sources */,
+				28C0CE7C2359AD99007D9185 /* UberQuizTests.swift in Sources */,
+				2838A03B235DBB420002DF59 /* GoogleQuizTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
